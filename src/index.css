@@ -1,0 +1,46 @@
+@tailwind base;
+/* neon headings */
+.neon-title{
+background: linear-gradient(90deg,#00bfff, #8b5cf6);
+-webkit-background-clip: text;
+background-clip: text;
+color: transparent;
+}
+
+
+/* glass card */
+.glass {
+background: rgba(13, 17, 23, 0.55);
+border: 1px solid rgba(255,255,255,0.03);
+box-shadow: 0 8px 40px rgba(14,18,24,0.7);
+backdrop-filter: blur(8px) saturate(120%);
+}
+
+
+/* subtle inner glow */
+.glow {
+box-shadow: 0 6px 30px rgba(75,85,99,0.2), 0 0 40px rgba(59,130,246,0.06);
+}
+
+
+/* hero background helper */
+.hero-height{ min-height: 72vh }
+
+
+/* footer link hover */
+.footer-link:hover{ color: #9b59ff }
+
+
+/* form fields */
+.input-field{
+background: rgba(5,8,12,0.45);
+border: 1px solid rgba(255,255,255,0.03);
+padding: 12px 16px;
+border-radius: 12px;
+}
+
+
+/* small responsive tweaks */
+@media (max-width: 640px){
+.hero-height{ min-height: 60vh }
+}
