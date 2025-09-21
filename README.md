@@ -1,6 +1,6 @@
 
 
-This is a complete React + Tailwind CSS portfolio for **Nanam Shruthi** matching the dark, neon, glassmorphism design you provided.
+This is a complete React + Tailwind CSS portfolio.
 
 
 ---
@@ -30,4 +30,5 @@ npm run build
 Notes: The project uses Tailwind. If you haven't set up Tailwind before, the necessary config files are included.
 
 
-Place your `resume.pdf` in the `public/` folder (a placeholder file is referenced).
+
+Place your `resume.pdf` in the `public/` folder .
